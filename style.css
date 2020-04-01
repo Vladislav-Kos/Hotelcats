@@ -1,0 +1,72 @@
+*{
+padding: 0;
+margin: 0;
+}
+header{
+width: 1366px;
+height: 76px;
+left: 0px;
+top: 0px;
+}
+.header-container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    padding: 28px;
+}
+a{
+    text-decoration: none;
+}
+li{
+    text-decoration: none;
+    list-style: none;
+}
+.logo{
+position: absolute;
+width: 63px;
+height: 52px;
+left: 98px;
+top: 12px;
+}
+.topnav{
+display: flex;
+}
+.topnav a{
+margin: 20px;
+color: #000;
+font-size: 16px;
+}
+.cat{
+    max-width: 100%;
+}
+.cat-container{
+    width: 100%;
+}
+.cat-item{
+    margin-top: -270px;
+    margin-left: 150px;
+}
+.cat-item h1{
+    font-size: 62px;
+}
+.cat-item p{
+    font-size: 20px;
+}
+.advantages_container{
+ display: flex;
+    justify-content: center;
+}
+.advantages{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.advantages_item{
+    width: 30%;
+}
+
