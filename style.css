@@ -153,7 +153,24 @@ position: absolute;
 left: 990px;
 top: 2880px;
 }
+.social h6{
+    font-size: 16px;
+}
 
+.social p{
+    font-size: 16px;
+}
+.social h2{
+    font-size: 36px;
+}
+.social{
+    background-color: #FAC663;
+    position: absolute;
+width: 568px;
+height: 580px;
+left: 0px;
+top: 2195px;
+}
 
 
 
