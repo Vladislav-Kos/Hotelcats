@@ -9,8 +9,8 @@ li{
 text-decoration: none;
 list-style: none;
 }
-.header{
-width: 1366px;
+body{
+ width: 1366px;
 }
 .header-container{
 display: flex;
@@ -31,10 +31,6 @@ margin: 7px;
 .logo1{
 margin: 7px;
 }
-.wert{
-    width: calc(100% - 20px);
-    margin: 0 auto;
-}
 .advantages_container{
 display: flex;
 justify-content: center;
@@ -47,16 +43,19 @@ align-items: center;
 .advantages{
 display: flex;
 flex-wrap: wrap;
+margin-bottom: -20px;
+margin-right: -20px;
 }
 .advantages_item{
-width: 33.33%;
+width: calc(33.3% - 40px);
 background: #FFFFFF;
 box-shadow: 0px 0px 25px rgba(208, 208, 208, 0.25);
 border-radius: 8px;
-margin: 10px;
+margin bottom: 20px;
+margin-right: 20px;
 }
 .social{
-width: 568px;
+width: 100%;
 background: #FAC663;
 
 }
