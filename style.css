@@ -31,8 +31,9 @@ margin: 7px;
 .logo1{
 margin: 7px;
 }
-.cat-container{
-width: 1366px;
+.wert{
+    width: calc(100% - 20px);
+    margin: 0 auto;
 }
 .advantages_container{
 display: flex;
@@ -46,10 +47,9 @@ align-items: center;
 .advantages{
 display: flex;
 flex-wrap: wrap;
-width: 80%;
 }
 .advantages_item{
-width: 30%;
+width: 33.33%;
 background: #FFFFFF;
 box-shadow: 0px 0px 25px rgba(208, 208, 208, 0.25);
 border-radius: 8px;
@@ -143,36 +143,6 @@ color: #848484;
 .menu1 a{
 color: #848484;
 }
-.cat-wrap{
-position: relative;
-}
-.cat-wrap h1{
-font-size: 14px;
-position: absolute;
-height: 10px;
-left: 198px;
-top: 229px;
-bottom: 0;
-width: 100%;
-}
-.cat-wrap h2{
-font-size: 62px;
-position: absolute;
-height: 43px;
-left: 198px;
-top: 254px;
-bottom: 0;
-width: 100%;
-}
-.cat-wrap h3{
-font-size: 20px;
-position: absolute;
-height: 15px;
-left: 198px;
-top: 322px;
-bottom: 0;
-width: 100%;
-}
 .many{
     display: flex;
     justify-content: space-around;
@@ -186,4 +156,11 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 border: 1px solid #EFEFEF;
+}
+.cat-items{
+    background-image: url(img/kat.png);
+    display: flex;
+    align-items: center;
+    width: 1366px;
+    height: 504px;
 }
