@@ -9,37 +9,6 @@ li{
 text-decoration: none;
 list-style: none;
 }
-body{
- width: 1366px;
-}
-.header-container{
-display: flex;
-justify-content: space-between;
-align-items: center;
-}
-.topnav{
-display: flex;
-justify-content: flex-end;
-}
-.topnav a{
-margin: 10px;
-color: #000;
-}
-.logo{
-margin: 7px;
-}
-.logo1{
-margin: 7px;
-}
-.advantages_container{
-display: flex;
-justify-content: center;
-padding: 40px;
-}
-.advantages_container h1{
-display: flex;
-align-items: center;
-}
 .advantages{
 display: flex;
 flex-wrap: wrap;
@@ -47,63 +16,114 @@ margin-bottom: -20px;
 margin-right: -20px;
 }
 .advantages_item{
-width: calc(33.3% - 40px);
+width: calc(33.33% - 60px);
 background: #FFFFFF;
 box-shadow: 0px 0px 25px rgba(208, 208, 208, 0.25);
 border-radius: 8px;
-margin bottom: 20px;
+margin-bottom: 20px;
 margin-right: 20px;
+padding: 20px;
 }
-.social{
-width: 100%;
-background: #FAC663;
-
+.advantages_item h2{
+font-family: Rubik;
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 140%;
 }
-.social h6{
+.advantages_item p{
+font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: normal;
 font-size: 16px;
-margin: 10px;
+line-height: 140%;
 }
-.social p{
+.topnav{
+display: flex;
+padding: 20px;
+}
+.topnav a{
+padding: 10px;
+font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: 600;
 font-size: 16px;
-margin: 10px;
+    color: #000;
 }
-.social-1{
-    margin-left: 130px;
-    margin-top: 50px;
-}
-.slick-container{
-    width: 100%;
-    height: 570px;
-}
-.set{
-text-align: center;
-}
-.set a{
-margin: 7px;
-}
-.map{
-width: auto;
-}
-.footer-container{
+.head{
 display: flex;
 justify-content: space-between;
 }
-.heading{
+h1{
 text-align: center;
-    margin: 30px;
+font-family: Rubik;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
 }
-.slick-container{
-padding: 100px;
+.cat-items{
+width: 100%;
+background-image: url(img/kat.png);
+display: flex;
+justify-content: space-between;
+align-items: center;
 }
-.slider-container{
-padding: 100px;
+.cat-wrap h2{
+font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+}
+.cat-wrap h3{
+font-family: Rubik;
+font-style: normal;
+font-weight: bold;
+font-size: 62px;
+}
+.cat-wrap h4{
+font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+}
+.reviews p{
+font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 140%;
+}
+.reviews a{
+font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+color: #848484;
+}
+.menu1{
+display: flex;
+justify-content: space-between;
+}
+.menu_1 h3{
+font-family: Rubik;
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+color: #1A212F;
+}
+.menu_1 a{
+font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+color: #1A212F;
 }
 .reviews{
-width: 470px;
 background: #FFFFFF;
 box-shadow: 0px 0px 25px rgba(208, 208, 208, 0.25);
 border-radius: 8px;
-margin: 20px;
+margin: 10px;
 }
 .reviews p::before{
 content: url(img/%E2%80%9C.png);
@@ -111,55 +131,31 @@ content: url(img/%E2%80%9C.png);
 .menu a::before{
 content: url(img/Ellipse%2014.png);
 width: 13px;
-    margin: 10px;
+margin: 10px;
 }
-.menu{
-    background: #FFFFFF;
-    box-shadow: 0px 0px 25px rgba(208, 208, 208, 0.25);
-    border-radius: 8px;
-    width: 40%;
-    position: relative;
-    left: 45%;
-    top: -336px;
-    height: 284px;
+.social-1 h6{
+font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
 }
-.menu li{
-    margin: 20px;
+.social-1 h2{
+font-family: Rubik;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
 }
-.menu a{
-    font-size: 16px;
-    color: #000;
+.social-1 p{
+font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
 }
-.menu h3{
-    font-size: 22px;
+.social{
+background-color: #FAC663;
+width: 100%;
 }
-.menu1{
+.socmap{
 display: flex;
-justify-content: space-between;
-font-size: 14px;
-color: #848484;
 }
-.menu1 a{
-color: #848484;
-}
-.many{
-    display: flex;
-    justify-content: space-around;
-    margin: 15px;
-}
-.many p{
-    color: #8F8F8F;
-}
-.hodor-container{
-display: flex;
-justify-content: space-between;
-align-items: center;
-border: 1px solid #EFEFEF;
-}
-.cat-items{
-    background-image: url(img/kat.png);
-    display: flex;
-    align-items: center;
-    width: 1366px;
-    height: 504px;
-}
+
