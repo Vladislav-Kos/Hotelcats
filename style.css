@@ -207,3 +207,52 @@ padding: 15px;
 color: #8F8F8F;
 }
 
+
+
+
+
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .topnav{
+        display: none;
+    }
+.cat-items{
+padding: 12%;
+    background: #fff;
+}
+.advantages_item{
+width: calc(50% - 60px);
+background: #FFFFFF;
+box-shadow: 0px 0px 25px rgba(208, 208, 208, 0.25);
+border-radius: 8px;
+margin-bottom: 20px;
+margin-right: 20px;
+padding: 20px;
+}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 601px) {
+.advantages_item{
+width: calc(100% - 60px);
+background: #FFFFFF;
+box-shadow: 0px 0px 25px rgba(208, 208, 208, 0.25);
+border-radius: 8px;
+margin-bottom: 20px;
+margin-right: 20px;
+padding: 20px;
+}
+}

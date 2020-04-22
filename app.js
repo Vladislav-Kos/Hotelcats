@@ -5,10 +5,21 @@ $('.cat-menu').slick({
   arrows: true,
     dots: true,
 });
+
+
+
 $('.reviews-1').slick({
-  infinite: true,
-  slidesToShow: 3,
-  slidesToScroll: 3,
-  arrows: true,
+            slidesToShow: 3,
+            slidesToScroll: 3,
+    arrows: true,
     dots: true,
-});
+            responsive: [
+                {
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2
+                    }
+                }
+            ]
+        });
