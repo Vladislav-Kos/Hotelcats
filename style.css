@@ -14,6 +14,7 @@ display: flex;
 flex-wrap: wrap;
 margin-bottom: -20px;
 margin-right: -20px;
+padding: 7%;
 }
 .advantages_item{
 width: calc(33.33% - 60px);
@@ -40,7 +41,7 @@ line-height: 140%;
 }
 .topnav{
 display: flex;
-padding: 20px;
+padding: 38px;
 }
 .topnav a{
 padding: 10px;
@@ -62,11 +63,12 @@ font-weight: bold;
 font-size: 36px;
 }
 .cat-items{
+background: url("img/kat.png") center;
+background-size: cover;
+padding: 12%;
+}
+.cat-items img{
 width: 100%;
-background-image: url(img/kat.png);
-display: flex;
-justify-content: space-between;
-align-items: center;
 }
 .cat-wrap h2{
 font-family: 'Lato', sans-serif;
@@ -125,8 +127,11 @@ box-shadow: 0px 0px 25px rgba(208, 208, 208, 0.25);
 border-radius: 8px;
 margin: 10px;
 }
-.reviews p::before{
+.reviews .reviews-2::before{
 content: url(img/%E2%80%9C.png);
+}
+.reviews-2{
+padding: 40px;
 }
 .menu a::before{
 content: url(img/Ellipse%2014.png);
@@ -157,5 +162,32 @@ width: 100%;
 }
 .socmap{
 display: flex;
+}
+.one{
+width: 50%;
+}
+.logo{
+padding: 20px;
+}
+.foot{
+display: flex;
+justify-content: space-between;
+border-bottom: 1px solid #EFEFEF;
+}
+.logo1{
+padding: 20px;
+margin-left: 18%;
+}
+.many{
+display: flex;
+justify-content: space-around;
+}
+.many p{
+font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+padding: 15px;
+color: #8F8F8F;
 }
 
