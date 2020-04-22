@@ -67,8 +67,12 @@ background: url("img/kat.png") center;
 background-size: cover;
 padding: 12%;
 }
-.cat-items img{
-width: 100%;
+.cat-items button{
+width: 18%;
+height: 43px;
+background: #FFFEFD;
+box-shadow: 0px 5px 25px rgba(26, 33, 47, 0.1);
+border-radius: 25px;
 }
 .cat-wrap h2{
 font-family: 'Lato', sans-serif;
@@ -87,6 +91,10 @@ font-family: 'Lato', sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 20px;
+}
+.cat-wrap button p::after{
+content: url(img/Vector.png);
+width: 36px;
 }
 .reviews p{
 font-family: 'Lato', sans-serif;
@@ -121,14 +129,22 @@ font-weight: normal;
 font-size: 16px;
 color: #1A212F;
 }
+.menu_1 button{
+width: 18%;
+height: 43px;
+background: #FF7236;
+box-shadow: 0px 5px 25px rgba(26, 33, 47, 0.1);
+border-radius: 25px;
+}
 .reviews{
 background: #FFFFFF;
 box-shadow: 0px 0px 25px rgba(208, 208, 208, 0.25);
 border-radius: 8px;
 margin: 10px;
 }
-.reviews .reviews-2::before{
+.reviews p::before{
 content: url(img/%E2%80%9C.png);
+display: flex;
 }
 .reviews-2{
 padding: 40px;
