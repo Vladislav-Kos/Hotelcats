@@ -176,6 +176,8 @@ h1 {
 .reviews p::before {
     content: url(../img/999.png);
     display: flex;
+    position: absolute;
+    margin-left: -25px;
 }
 
 .reviews-2 {
@@ -219,6 +221,7 @@ h1 {
 
 .socmap {
     display: flex;
+    margin-top: 130px;
 }
 
 .one {
@@ -261,6 +264,35 @@ h1 {
 section h1 {
     padding: 20px;
 }
+.whyus h1{
+    margin: 100px auto 60px auto;
+}
+.number h1{
+    margin: 100px auto 40px auto;  
+}
+.com h1{
+    margin: 100px auto 40px auto; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media only screen and (max-width: 5000px) {
     .main-menu {
