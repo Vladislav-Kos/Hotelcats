@@ -291,15 +291,10 @@ section h1 {
     .cat-items {
         text-align: center;
     }
-    .socmap {
-        text-align: center;
-    }
     .social {
         padding: 30px;
     }
-    .map {
-        display: none;
-    }
+    
     .wrapper {
         background-color: #FAC663;
         position: relative;
@@ -411,6 +406,21 @@ section h1 {
 @media screen and (max-width: 1000px) {
     .container{
         max-width: 780px;
+    }
+    .socmap {
+        display: flex;
+        flex-direction: column;
+    }
+    .social-1{
+        text-align: center;
+    }
+    .social {
+        background-color: #FAC663;
+        width: 100%;
+    }
+    
+    .map {
+        width: 100%;
     }
 }
 

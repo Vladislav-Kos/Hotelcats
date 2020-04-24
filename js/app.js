@@ -6,8 +6,8 @@ $(function() {
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
-    arrows: true,
-        dots: true,
+    arrows: false,
+        dots: false,
     });
 
 
@@ -15,18 +15,18 @@ $(function() {
     $('.reviews-1').slick({
                 slidesToShow: 3,
                 slidesToScroll: 3,
-        arrows: true,
-        dots: true,
+        arrows: false,
+        dots: false,
                 responsive: [
                     {
-                        breakpoint: 992,
+                        breakpoint: 1250,
                         settings: {
                             slidesToShow: 2,
                             slidesToScroll: 2,
                         }
                     },
                     {
-                        breakpoint: 720,
+                        breakpoint: 1000,
                         settings: {
                             slidesToShow: 1,
                             slidesToScroll: 1,
