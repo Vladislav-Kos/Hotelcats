@@ -2,13 +2,13 @@ $(function() {
     console.log("WORK")
 
 
-    $('.cat-menu').slick({
+    /*$('.cat-menu').slick({
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false,
         dots: false,
-    });
+    });*/
 
 
 

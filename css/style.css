@@ -273,6 +273,17 @@ section h1 {
 .com h1{
     margin: 100px auto 40px auto; 
 }
+.cat-menu{
+    display: flex;
+    align-items: center;
+}
+.menu{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 25px rgba(208, 208, 208, 0.25);
+    border-radius: 8px;
+      
+}
+
 
 
 
