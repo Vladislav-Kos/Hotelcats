@@ -211,7 +211,10 @@ h1 {
 
 .social {
     background-color: #FAC663;
-    width: 100%;
+    width: 40%;
+}
+.map{
+    width: 60%;
 }
 
 .socmap {
