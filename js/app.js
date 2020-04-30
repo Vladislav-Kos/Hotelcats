@@ -2,21 +2,20 @@ $(function() {
     console.log("WORK")
 
 
-    /*$('.cat-menu').slick({
-    infinite: true,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    arrows: false,
-        dots: false,
-    });*/
-
+    $('.cat-menu').slick({
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: true,
+        dots: true,
+    });
 
 
     $('.reviews-1').slick({
                 slidesToShow: 3,
                 slidesToScroll: 3,
-        arrows: false,
-        dots: false,
+        arrows: true,
+        dots: true,
                 responsive: [
                     {
                         breakpoint: 1250,

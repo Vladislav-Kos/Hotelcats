@@ -84,14 +84,14 @@ h1 {
     background-size: cover;
 }
 
-.cat-items button {
+/* .cat-items button {
     width: 18%;
     height: 43px;
     background: #FFFEFD;
     box-shadow: 0px 5px 25px rgba(26, 33, 47, 0.1);
     border-radius: 25px;
     cursor: pointer;
-}
+} */
 
 .cat-wrap h2 {
     font-family: 'Lato', sans-serif;
@@ -162,14 +162,14 @@ h1 {
     color: #1A212F;
 }
 
-.menu_1 button {
+/* .menu_1 button {
     width: 18%;
     height: 43px;
     background: #FF7236;
     box-shadow: 0px 5px 25px rgba(26, 33, 47, 0.1);
     border-radius: 25px;
     cursor: pointer;
-}
+} */
 
 .reviews {
     background: #FFFFFF;
@@ -279,15 +279,295 @@ section h1 {
 .com h1{
     margin: 100px auto 40px auto; 
 }
-.cat-menu{
-    display: flex;
+.cat-menu__item{
+    display: flex!important;
     align-items: center;
+    justify-content: center;
 }
 .menu{
     background: #FFFFFF;
     box-shadow: 0px 0px 25px rgba(208, 208, 208, 0.25);
     border-radius: 8px;
-    margin: -100px
+    margin-left: -100px
+}
+.cat-menu .slick-next  {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.cat-menu .slick-prev {
+    position: absolute;
+    right: 35px;
+    bottom: 0;
+}
+.cat-menu .slick-dots{
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    background-color: #FF7236;
+    font-weight: 600;
+    font-size: 16px;
+    color: #1A212F;
+    border: 2px solid #FF7236;
+    padding: 12px 50px 12px 17px;
+    border-radius: 50px;
+    color: #fff;
+    transition: all linear .3s;
+    position: relative;
+}
+
+.btn svg {
+    position: absolute;
+    right: 4px;
+    top: 3px;
+}
+.btn svg .svg-2{
+    fill: #fff;
+    transition: all linear .3s;
+}
+.btn svg .svg-1{
+    fill: #FF7236;
+    transition: all linear .3s;
+}
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+}
+.btn:hover svg .svg-2{
+    fill: #FF7236;
+}
+.btn:hover svg .svg-1{
+    fill: #fff;
+}
+
+.btn_white{
+    background-color: #fff;
+    color: #000;
+}
+.btn_white:hover{
+    background-color: #FF7236;
+    color: #fff;
+}
+.btn_white svg .svg-2{
+    fill: #fff;
+}
+.btn_white svg .svg-1{
+    fill: #FF7236;
+}
+.btn_white:hover svg .svg-2{
+    fill: #fff;
+}
+.btn_white:hover svg .svg-1{
+    fill: #FF7236;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 5000px) {
+    .main-menu {
+        display: none;
+    }
+    input {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .head {
+        display: none;
+    }
+    .cat-items {
+        padding: 12%;
+        background: #FAC663;
+    }
+    .advantages_item {
+        width: calc(50% - 60px);
+        background: #FFFFFF;
+        box-shadow: 0px 0px 25px rgba(208, 208, 208, 0.25);
+        border-radius: 8px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        padding: 20px;
+    }
+    .cat-items {
+        text-align: center;
+    }
+    .social {
+        padding: 30px;
+    }
+    
+    .wrapper {
+        background-color: #FAC663;
+        position: relative;
+        color: #1A212F;
+        text-align: center;
+        height: 40px;
+        font-family: 'Arial';
+    }
+    #check-menu {
+        display: none;
+    }
+    label {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+        z-index: 2;
+        line-height: 40px;
+    }
+    .burger-line {
+        position: absolute;
+        top: 8px;
+        right: 10px;
+        width: 35px;
+        height: 2px;
+        background-color: #1A212F;
+        ;
+        transition: .5s all;
+    }
+    .second,
+    .third {
+        top: 18px;
+    }
+    .fourth {
+        top: 28px;
+    }
+    .main-menu {
+        display: block;
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        transform: translateY(100%);
+        max-height: 0;
+        font-size: 0;
+        overflow: hidden;
+        transition: .5s all;
+    }
+    .main-menu a {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        color: #1A212F;
+        text-decoration: none;
+        border-top: 1px solid rgba(255, 255, 255, .3);
+        background-color: #FAC663;
+    }
+    a:hover {
+        background-color: rgba(0, 0, 0, .9);
+    }
+    #check-menu:checked~.main-menu {
+        max-height: 500px;
+        font-size: 16px;
+    }
+    #check-menu:checked~.first {
+        display: none;
+    }
+    #check-menu:checked~.second {
+        transform: rotate(45deg);
+    }
+    #check-menu:checked~.third {
+        transform: rotate(-45deg);
+    }
+    #check-menu:checked~.fourth {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {}
+
+@media only screen and (max-width: 601px) {
+    .advantages_item {
+        width: calc(100% - 60px);
+        background: #FFFFFF;
+        box-shadow: 0px 0px 25px rgba(208, 208, 208, 0.25);
+        border-radius: 8px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        padding: 20px;
+    }
+}
+
+
+
+
+
+
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1250px) {
+    .container{
+        max-width: 950px;
+    }
+}
+
+
+@media screen and (max-width: 1000px) {
+    .container{
+        max-width: 780px;
+    }
+    .socmap {
+        display: flex;
+        flex-direction: column;
+    }
+    .social-1{
+        text-align: center;
+    }
+    .social {
+        background-color: #FAC663;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .map {
+        width: 100%;
+    }
+    .cat-menu {
+        display: flex;
+        flex-direction: column;
+    }
+    .slide img {
+        width: 100%;
+        }
+        
+        .menu {
+            background: #FFFFFF;
+            box-shadow: 0px 0px 25px rgba(208, 208, 208, 0.25);
+            border-radius: 8px;
+            width: 77%;
+        }
+        
+}
+
+
+@media screen and (max-width: 820px) {
+    .container{
+        width: calc(100% - 30px);
+        margin: 0 15px;
+    }
+}
+
+.cat-wrap {
+    min-height: 440px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px 0;
+    align-items: flex-start;
 }
 
 
