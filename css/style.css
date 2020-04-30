@@ -290,23 +290,26 @@ section h1 {
     border-radius: 8px;
     margin-left: -100px
 }
-.cat-menu .slick-next  {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-}
-.cat-menu .slick-prev {
-    position: absolute;
-    right: 35px;
-    bottom: 0;
-}
+
 .cat-menu .slick-dots{
     display: flex;
     justify-content: center;
+    margin-top: 20px;
+}
+.next{
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+}
+.prev{
+    position: absolute;
+    right: 55px;
+    bottom: -40px; 
+    z-index: 1;  
 }
 
 .btn {
-    background-color: #FF7236;
+    background-color: rgb(224, 99, 45);
     font-weight: 600;
     font-size: 16px;
     color: #1A212F;

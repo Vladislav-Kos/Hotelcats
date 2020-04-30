@@ -8,6 +8,8 @@ $(function() {
         slidesToScroll: 1,
         arrows: true,
         dots: true,
+        prevArrow: "<img src='img/Group 17.png' class='prev' alt='1'>",
+    nextArrow: "<img src='img/Group 18.png' class='next' alt='2'>",
     });
 
 
@@ -16,6 +18,8 @@ $(function() {
                 slidesToScroll: 3,
         arrows: true,
         dots: true,
+        prevArrow: "<img src='img/Group 17.png' class='prev' alt='1'>",
+    nextArrow: "<img src='img/Group 18.png' class='next' alt='2'>",
                 responsive: [
                     {
                         breakpoint: 1250,
