@@ -394,6 +394,88 @@ margin: 10px;
 .btn_white:hover svg .svg-1{
     fill: #FF7236;
 }
+
+
+
+
+
+
+.btn-11 {
+    background-color: rgb(224, 99, 45);
+    font-weight: 600;
+    font-size: 16px;
+    color: #1A212F;
+    border: 2px solid #FF7236;
+    padding: 12px 20px 12px 17px;
+    border-radius: 50px;
+    color: #fff;
+    transition: all linear .3s;
+    position: relative;
+}
+.btn_white-11{
+    background-color: #fff;
+    color: #000;
+    top: 20px;
+}
+.btn-11:hover{
+    background-color: #fff;
+    color: #000;
+}
+.btn_white-11:hover{
+    background-color: #FF7236;
+    color: #fff;
+}
+
+
+
+
+
+.btn-12 {
+    background-color: rgb(224, 99, 45);
+    font-weight: 600;
+    font-size: 16px;
+    color: #1A212F;
+    border: 2px solid #FF7236;
+    padding: 12px 50px 12px 17px;
+    border-radius: 50px;
+    color: #fff;
+    transition: all linear .3s;
+    position: relative;
+    margin: 20px 0px 0px 35px;
+}
+.btn-12 svg {
+    position: absolute;
+    right: 4px;
+    top: 3px;
+}
+.btn-12 svg .svg-2{
+    fill: #fff;
+    transition: all linear .3s;
+}
+.btn-12 svg .svg-1{
+    fill: #FF7236;
+    transition: all linear .3s;
+}
+.btn-12:hover{
+    background-color: #fff;
+    color: #000;
+}
+.btn-12:hover svg .svg-2{
+    fill: #FF7236;
+}
+.btn-12:hover svg .svg-1{
+    fill: #fff;
+}
+
+
+
+
+
+
+
+
+
+
 .img-1{
     background: url("../img/Rectangle\ 49.png") center;
     background-size: cover;
