@@ -278,6 +278,11 @@ section h1 {
     justify-content: center;
     margin-top: 20px;
 }
+.reviews-1 .slick-dots{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
 .next{
     position: absolute;
     right: 0;
@@ -289,6 +294,18 @@ section h1 {
     bottom: -40px; 
     z-index: 1;  
 }
+.slick-dots button::before{
+    content: url(../img/Ellipse\ 14.png);
+    
+}
+.slick-dots button{
+    font-size: 0;
+    display: contents;
+}
+.slick-dots li{
+margin: 10px;
+}
+
 
 
 .btn {
@@ -331,6 +348,7 @@ section h1 {
 .btn_white{
     background-color: #fff;
     color: #000;
+    top: 20px;
 }
 .btn_white:hover{
     background-color: #FF7236;
