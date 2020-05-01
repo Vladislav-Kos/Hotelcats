@@ -35,7 +35,6 @@ body {
     margin-right: 20px;
     padding: 20px;
 }
-
 .advantages_item h3 {
     font-family: Rubik;
     font-style: normal;
@@ -45,6 +44,29 @@ body {
 }
 
 .advantages_item p {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+}
+.advantages_itemes {
+    width: calc(33.33% - 60px);
+    background: #FFFFFF;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    padding: 20px;
+}
+.advantages_itemes h3 {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 140%;
+}
+
+.advantages_itemes p {
     font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -255,6 +277,17 @@ section h1 {
 .whyus h1{
     margin: 100px auto 60px auto;
 }
+.whyus h2{
+    text-align: inherit;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    margin: 70px 0px 50px 0;
+}
+.whyus-2{
+    display: flex;
+}
 .number h1{
     margin: 100px auto 40px auto;  
 }
@@ -305,9 +338,6 @@ section h1 {
 .slick-dots li{
 margin: 10px;
 }
-
-
-
 .btn {
     background-color: rgb(224, 99, 45);
     font-weight: 600;
@@ -320,7 +350,6 @@ margin: 10px;
     transition: all linear .3s;
     position: relative;
 }
-
 .btn svg {
     position: absolute;
     right: 4px;
@@ -344,7 +373,6 @@ margin: 10px;
 .btn:hover svg .svg-1{
     fill: #fff;
 }
-
 .btn_white{
     background-color: #fff;
     color: #000;
@@ -366,7 +394,150 @@ margin: 10px;
 .btn_white:hover svg .svg-1{
     fill: #FF7236;
 }
+.img-1{
+    background: url("../img/Rectangle\ 49.png") center;
+    background-size: cover;
+    margin-top: 120px;
+    border-radius: 10px;
+    padding: 36px 36px 36px 150px;
+}
+.img-1 span{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+}
+.img-1 h1{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+}
+.img-1 p{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+}
+.control-group label{
+    padding: 0px 40px 15px 40px;
+}
+.control-group p{
+    font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+padding-bottom: 15px;
+}
+.control {
+    font-family: arial;
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 5px;
+    padding-top: 0px;
+    cursor: pointer;
+    font-size: 16px;
+}
+    .control input {
+        position: absolute;
+        z-index: -1;
+        opacity: 0;
+    }
+.control_indicator {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background: #e6e6e6;
+    border: 0px solid #000000;
+    border-radius: 0px;
+}
+.control:hover input ~ .control_indicator,
+.control input:focus ~ .control_indicator {
+    background: #cccccc;
+}
 
+.control:hover input:not([disabled]):checked ~ .control_indicator,
+.control input:checked:focus ~ .control_indicator {
+    background: #0e6647d;
+}
+.control input:disabled ~ .control_indicator {
+    background: #e6e6e6;
+    opacity: 0.6;
+    pointer-events: none;
+}
+.control_indicator:after {
+    box-sizing: unset;
+    content: '';
+    position: absolute;
+    display: none;
+}
+.control input:checked ~ .control_indicator:after {
+    display: block;
+}
+.control-checkbox .control_indicator:after {
+    left: 8px;
+    top: 4px;
+    width: 3px;
+    height: 8px;
+    border: solid #000;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+.control-checkbox input:disabled ~ .control_indicator:after {
+    border-color: #7b7b7b;
+}
+.control-checkbox .control_indicator::before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 4.5rem;
+    height: 4.5rem;
+    margin-left: -1.3rem;
+    margin-top: -1.3rem;
+    background: #FAC663;
+    border-radius: 3rem;
+    opacity: 0.6;
+    z-index: 99999;
+    transform: scale(0);
+}
+@keyframes s-ripple {
+    0% {
+        transform: scale(0);
+    }
+    20% {
+        transform: scale(1);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(1);
+    }
+}
+@keyframes s-ripple-dup {
+   0% {
+       transform: scale(0);
+    }
+   30% {
+        transform: scale(1);
+    }
+    60% {
+        transform: scale(1);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(1);
+    }
+}
+.control-checkbox input + .control_indicator::before {
+    animation: s-ripple 250ms ease-out;
+}
+.control-checkbox input:checked + .control_indicator::before {
+    animation-name: s-ripple-dup;
+}
 
 
 
@@ -395,6 +566,14 @@ margin: 10px;
         width: calc(50% - 60px);
         background: #FFFFFF;
         box-shadow: 0px 0px 25px rgba(208, 208, 208, 0.25);
+        border-radius: 8px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        padding: 20px;
+    }
+    .advantages_itemes {
+        width: calc(50% - 60px);
+        background: #FFFFFF;
         border-radius: 8px;
         margin-bottom: 20px;
         margin-right: 20px;
@@ -621,6 +800,14 @@ margin: 10px;
         margin-right: 20px;
         padding: 20px;
     }
+    .advantages_itemes {
+        width: calc(50% - 60px);
+        background: #FFFFFF;
+        border-radius: 8px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        padding: 20px;
+    }
     .cat-items {
         text-align: center;
     }
@@ -716,6 +903,14 @@ margin: 10px;
         width: calc(100% - 60px);
         background: #FFFFFF;
         box-shadow: 0px 0px 25px rgba(208, 208, 208, 0.25);
+        border-radius: 8px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        padding: 20px;
+    }
+    .advantages_itemes {
+        width: calc(100% - 60px);
+        background: #FFFFFF;
         border-radius: 8px;
         margin-bottom: 20px;
         margin-right: 20px;
