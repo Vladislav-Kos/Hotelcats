@@ -74,9 +74,11 @@ body {
     line-height: 140%;
 }
 
+
+
 .topnav {
     display: flex;
-    padding: 38px;
+    padding-top: 38px;
 }
 
 .topnav a {
@@ -285,6 +287,14 @@ section h1 {
     font-size: 36px;
     margin: 70px 0px 50px 0;
 }
+.whyus h3{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+}
 .whyus-2{
     display: flex;
 }
@@ -441,7 +451,7 @@ margin: 10px;
     color: #fff;
     transition: all linear .3s;
     position: relative;
-    margin: 20px 0px 0px 35px;
+    margin: 20px 0px 0px 0px;
 }
 .btn-12 svg {
     position: absolute;
@@ -1077,6 +1087,23 @@ padding-bottom: 15px;
     margin: -50px 0px 0px 0px;
 }
 .control-0 form{
-    padding: 0px 15px 0px 0px;
+    padding: 53px 15px 25px 0px;
     
+}
+.control-0 textarea{
+    border: 1px solid #E1E1E1;
+box-sizing: border-box;
+}
+.us-numbers0{
+    display: flex;
+    justify-content: space-between;
+}
+.us-numbers0 select{
+    box-shadow: 0px 0px 25px rgba(208, 208, 208, 0.25);
+    border: rgb(226, 226, 226);
+    border-radius: 25px;
+    cursor: pointer;
+}
+.us-numbers2{
+    padding-top: 80px;
 }
