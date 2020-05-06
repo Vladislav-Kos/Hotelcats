@@ -249,7 +249,11 @@ h2{
     margin-bottom: 25px;
 }
 .social-1{
-    margin: 60px 0px 0px 124px;
+    display: flex;
+    flex-direction: column;
+    padding: 55px;
+    justify-content: center;
+    
 }
 .set{
     margin: 10px 0px 0px 5px;
@@ -513,7 +517,7 @@ margin: 10px;
     color: #000;
 }
 .btn_white-11:hover{
-    background-color: #FF7236;
+    background-color: #FAC663;
     color: #fff;
 }
 
@@ -681,6 +685,11 @@ display: block;
 .whyus-1__item-input input{
     margin-right: 10px;
     width: calc(50% - 5px);
+    border: 1px solid #E1E1E1;
+    padding: 7px 0 7px 5px;
+}
+.whyus-1__item-input input::placeholder {
+    color: #000;
 }
 .whyus-1__item-input input:last-child{
     margin-right: 0;
@@ -716,6 +725,31 @@ display: block;
 }
 
 @media screen and (max-width: 992px) {
+    .img-1{
+        background: #FAC663;
+        padding: 75px 36px 112px 50px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .img-1 span{
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+    }
+    .img-1 h1{
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 37px;
+    }
+    .img-1 p{
+        font-family: 'Lato', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+    }
     .head {
         display: none;
     }
@@ -868,11 +902,11 @@ display: block;
         background-color: #FAC663;
         width: auto;
         text-align: center;
-        padding-right: 147px;
     }
     
     .map {
         width: 100%;
+        height: 535px;
     }
     .cat-menu__item {
         display: flex;
@@ -942,4 +976,34 @@ box-sizing: border-box;
     .slide{
         width: 100%;
     }
+    .us-numbers2 {
+        padding-top: 0;
+        text-align: center;
+        margin-bottom: 30px;
 }
+.us-numbers0 {
+    display: block;
+}
+.foot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid #EFEFEF;
+}
+.topnav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0;
+}
+.topnav li{
+    padding-bottom: 10px;
+}
+.many{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+}
+
+    
