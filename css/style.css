@@ -281,13 +281,12 @@ h2{
 
 .foot {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     border-bottom: 1px solid #EFEFEF;
 }
 
 .logo1 {
     padding: 20px;
-    margin-left: 18%;
 }
 
 .many {
